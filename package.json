@@ -1,0 +1,24 @@
+{
+  "name": "@s9a/...npm",
+  "version": "0.0.0",
+  "description": "Spreading names for npm",
+  "main": "index.html",
+  "license": "ISC",
+  "scripts": {
+    "test": "npm ls"
+  },
+  "homepage": "https://s9a.github.io/...npm/",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/s9a/...npm.git"
+  },
+  "bugs": {
+    "url": "https://github.com/s9a/...npm/issues"
+  },
+  "keywords": [
+    "names",
+    "naming",
+    "npm",
+    "poster"
+  ]
+}
