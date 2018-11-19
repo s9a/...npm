@@ -5,6 +5,7 @@
   "main": "index.html",
   "license": "ISC",
   "scripts": {
+    "preversion": "npm ls",
     "test": "npm ls"
   },
   "homepage": "https://s9a.github.io/...npm/",
