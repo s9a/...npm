@@ -763,3 +763,24 @@ body { margin: 0 }
   <a href="https://twitter.com/npmjs/status/476592652423401472"><abbr class="bae-dusk" title="wombat developers union">wdu</abbr></a>
   <a href="https://s9a.github.io/bae/#510">local 510</a>
 </footer>
+
+<script
+  src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+  integrity="sha256-3edrmyuQ0w65f8gfBsqowzjJe2iM6n0nKciPUp8y+7E="
+  crossorigin="anonymous"></script>
+
+<script>
+typeof $ == "function" && function() {
+  var vibe = "#wdu_thankful_for"
+  var voice = "https://twitter.com/intent/tweet?text="
+  var poster = "https://s9a.github.io/...npm/"
+
+  $(".solo").each(function(i, e) {
+    var a = document.createElement("a")
+    var name = $.trim($(e).text())
+    var tweet = name + "\n" + vibe + "\n" + poster
+    a.href = voice + encodeURIComponent(tweet)
+    $(e).wrapInner(a) // til
+  })
+}();
+</script>
